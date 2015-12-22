@@ -16,7 +16,7 @@ var LocalStrategy = require('passport-local').Strategy;
 /* var mongo = require('mongodb'); */
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/RideShare', function(err) {
+mongoose.connect('mongodb://zumit123:zumit123!@#$!@#DSF@ds035485.mongolab.com:35485/heroku_wvzf6jp6/RideShare', function(err) {
   if(err) {
     console.log('database connection error', err);
   } else {
